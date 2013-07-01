@@ -1,23 +1,17 @@
 <div class="container">
-  <h1>Welcome to Sinatra!</h1>
-  <p>Hello, world!</p>
-
-  <table>
-    <tr>
-      <th>File Description</th>
-      <th>File Location</th>
-    </tr>
-    <tr>
-      <td>This view file</td>
-      <td><code><%= __FILE__.gsub(Sinatra::Application.root, '') %></code></td>
-    </tr>
-    <tr>
-      <td>The layout file</td>
-      <td><code><%= File.expand_path('../layout.erb', __FILE__).gsub(Sinatra::Application.root, '') %></code></td>
-    </tr>
-    <tr>
-      <td>The current controller</td>
-      <td><code><%= File.expand_path('../../controllers/index.rb', __FILE__).gsub(Sinatra::Application.root, '') %></code></td>
-    </tr>
-  </table>
+  <h1>Welcome to 2 Fast 4 Ruby: Javascript Drift</h1>
+  <h4>Featuring Paul Walker and Vin Diesel</h4>
 </div>
+<script type="text/javascript" src="/js/stopwatch.js"></script>
+
+<h2>Race here:</h2>
+
+<table class="racer_table">
+  <tr id="player1_strip">
+    
+    <td class="active-vin"><img src="vin.jpg" height = "50px" width = "40px"></td>
+  </tr>
+  <tr id="player2_strip">
+    <td class="activep-walker"><img src="paul.jpg" height = "50px" width = "40px"></td>
+  </tr>
+</table>
