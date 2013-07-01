@@ -1,4 +1,1 @@
-sinatra_skeleton
-================
-
-Sinatra skeleton from dev bootcamp
+2 Fast 4 Ruby: Javascript Drift
